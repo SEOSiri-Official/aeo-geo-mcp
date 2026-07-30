@@ -1,4 +1,4 @@
-// worker.js - Cloudflare Worker for SEOSiri AEO/GEO MCP
+// worker.js - SEOSiri AEO/GEO MCP Cloudflare Edge Gateway
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request));
 });
@@ -33,7 +33,7 @@ async function handleRequest(request) {
 
   const acceptHeader = request.headers.get("Accept") || "";
   if ((url.pathname === "/" || url.pathname === "") && acceptHeader.includes("text/html")) {
-    return Response.redirect("return Response.redirect("https://www.seosiri.com/2026/07/aeo-geo-mcp.html", 301);", 301);
+    return Response.redirect("https://www.seosiri.com/2026/07/aeo-geo-mcp.html", 301);
   }
 
   try {
