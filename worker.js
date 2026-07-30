@@ -33,7 +33,7 @@ async function handleRequest(request) {
 
   const acceptHeader = request.headers.get("Accept") || "";
   if ((url.pathname === "/" || url.pathname === "") && acceptHeader.includes("text/html")) {
-    return Response.redirect("https://www.seosiri.com/2026/07/seosiri-mcp-servers.html", 301);
+    return Response.redirect("return Response.redirect("https://www.seosiri.com/2026/07/aeo-geo-mcp.html", 301);", 301);
   }
 
   try {
