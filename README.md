@@ -51,3 +51,5 @@ Distributed under the MIT License. See `LICENSE` for details.
 
 ## Repo
 https://github.com/SEOSiri-Official/aeo-geo-mcp
+
+<!-- CI Trigger -->
