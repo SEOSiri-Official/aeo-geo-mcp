@@ -16,15 +16,15 @@ classifiers = [
     "Topic :: Security"
 ]
 dependencies = [
-    "mcp>=1.0.0",
+    "mcp[cli]>=1.2.0",
     "requests>=2.28.0",
     "fastapi>=0.110.0",
     "uvicorn>=0.31.1"
 ]
 
 [project.urls]
-Homepage = "https://github.com/SEOSiri-Official/aeo-geo-mcp"
-Repository = "https://github.com/SEOSiri-Official/aeo-geo-mcp.git"
+Homepage = "https://www.seosiri.com/2026/07/aeo-geo-mcp.html"
+Repository = "https://www.seosiri.com/2026/07/aeo-geo-mcp.html.git"
 
 [build-system]
 requires = ["setuptools>=61.0"]
