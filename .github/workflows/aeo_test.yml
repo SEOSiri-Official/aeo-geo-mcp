@@ -19,9 +19,8 @@ jobs:
       - name: Install Build & Package Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install setuptools wheel pytest
-          pip install "mcp[cli]" requests fastapi uvicorn
-          pip install -e .
+          pip install setuptools wheel pytest "mcp>=1.0.0" requests fastapi uvicorn
+          pip install --no-build-isolation -e .
           
       - name: Run Test Suite
         run: python -m pytest tests/test_aeo_geo.py
