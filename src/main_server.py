@@ -10,7 +10,10 @@ import re
 import sqlite3
 import requests
 from datetime import datetime, timezone
-from mcp.server.fastmcp import FastMCP
+try:
+    from mcp.server.fastmcp import FastMCP
+except ImportError:
+    from mcp.server import FastMCP
 
 mcp = FastMCP("SEOSiri-AEO-GEO-Intelligence-Server")
 
