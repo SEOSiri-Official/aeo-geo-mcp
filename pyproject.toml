@@ -1,6 +1,6 @@
 [project]
 name = "seosiri-aeo-geo-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "A sovereign, local-first MCP server for AI Engine Optimization (AEO), Generative Engine Optimization (GEO), llm.txt auditing, and content stickiness analytics."
 readme = "README.md"
 requires-python = ">=3.10"
